@@ -1,26 +1,34 @@
-//
-//  ContentView.swift
-//  CurrencyConversion
-//
-//  Created by head_guest on 05/07/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @SwiftUI.State var openDropdown: Bool = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            VStack {
+                VStack {
+                    Text("Currency Converter")
+                }
+                .padding()
+                .frame(width: UIScreen.main.bounds.width)
+                .background(Color.gray.opacity(0.12))
+                TextFieldView()
+                HStack {
+                    Spacer()
+                    DropdownButton(openDropdown: $openDropdown)
+                        .padding(.trailing, 15)
+                }
+                Spacer()
+                    .frame(height: 20)
+                CurrencyButtonsView()
+            }
+            if openDropdown {
+                Color.black.opacity(0.1)
+                    .ignoresSafeArea()
+                    .onTapGesture {
+                        openDropdown.toggle()
+                    }
+                DropdownView()
+            }
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

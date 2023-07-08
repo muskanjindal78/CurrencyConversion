@@ -14,6 +14,16 @@
 		AEF8FBE62A555B6300AC87B1 /* CurrencyConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FBE52A555B6300AC87B1 /* CurrencyConversionTests.swift */; };
 		AEF8FBF02A555B6300AC87B1 /* CurrencyConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FBEF2A555B6300AC87B1 /* CurrencyConversionUITests.swift */; };
 		AEF8FBF22A555B6300AC87B1 /* CurrencyConversionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FBF12A555B6300AC87B1 /* CurrencyConversionUITestsLaunchTests.swift */; };
+		AEF8FC022A555D9700AC87B1 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC012A555D9700AC87B1 /* TextFieldView.swift */; };
+		AEF8FC042A555EA800AC87B1 /* DropdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC032A555EA800AC87B1 /* DropdownButton.swift */; };
+		AEF8FC062A555EB300AC87B1 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC052A555EB300AC87B1 /* DropdownView.swift */; };
+		AEF8FC082A555FBC00AC87B1 /* CurrencyButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC072A555FBC00AC87B1 /* CurrencyButtonsView.swift */; };
+		AEF8FC0A2A555FE600AC87B1 /* CurrencyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC092A555FE600AC87B1 /* CurrencyButton.swift */; };
+		AEF8FC0E2A572DA600AC87B1 /* CurrencyDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC0D2A572DA600AC87B1 /* CurrencyDataViewModel.swift */; };
+		AEF8FC112A572DCC00AC87B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC102A572DCC00AC87B1 /* Constants.swift */; };
+		AEF8FC132A5854CF00AC87B1 /* LatestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC122A5854CF00AC87B1 /* LatestModel.swift */; };
+		AEF8FC152A592A3B00AC87B1 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC142A592A3B00AC87B1 /* APIModel.swift */; };
+		AEF8FC172A59881A00AC87B1 /* ConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8FC162A59881A00AC87B1 /* ConversionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		AEF8FBEB2A555B6300AC87B1 /* CurrencyConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConversionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF8FBEF2A555B6300AC87B1 /* CurrencyConversionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionUITests.swift; sourceTree = "<group>"; };
 		AEF8FBF12A555B6300AC87B1 /* CurrencyConversionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEF8FC012A555D9700AC87B1 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		AEF8FC032A555EA800AC87B1 /* DropdownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownButton.swift; sourceTree = "<group>"; };
+		AEF8FC052A555EB300AC87B1 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		AEF8FC072A555FBC00AC87B1 /* CurrencyButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyButtonsView.swift; sourceTree = "<group>"; };
+		AEF8FC092A555FE600AC87B1 /* CurrencyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyButton.swift; sourceTree = "<group>"; };
+		AEF8FC0D2A572DA600AC87B1 /* CurrencyDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDataViewModel.swift; sourceTree = "<group>"; };
+		AEF8FC102A572DCC00AC87B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AEF8FC122A5854CF00AC87B1 /* LatestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestModel.swift; sourceTree = "<group>"; };
+		AEF8FC142A592A3B00AC87B1 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		AEF8FC162A59881A00AC87B1 /* ConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,10 @@
 			children = (
 				AEF8FBD32A555B6200AC87B1 /* CurrencyConversionApp.swift */,
 				AEF8FBD52A555B6200AC87B1 /* ContentView.swift */,
+				AEF8FC0F2A572DB600AC87B1 /* Utilities */,
+				AEF8FBFF2A555D6F00AC87B1 /* Model */,
+				AEF8FBFE2A555D6200AC87B1 /* Views */,
+				AEF8FC002A555D7700AC87B1 /* ViewModel */,
 				AEF8FBD72A555B6300AC87B1 /* Assets.xcassets */,
 				AEF8FBD92A555B6300AC87B1 /* CurrencyConversion.entitlements */,
 				AEF8FBDA2A555B6300AC87B1 /* Preview Content */,
@@ -127,6 +151,44 @@
 				AEF8FBF12A555B6300AC87B1 /* CurrencyConversionUITestsLaunchTests.swift */,
 			);
 			path = CurrencyConversionUITests;
+			sourceTree = "<group>";
+		};
+		AEF8FBFE2A555D6200AC87B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8FC012A555D9700AC87B1 /* TextFieldView.swift */,
+				AEF8FC072A555FBC00AC87B1 /* CurrencyButtonsView.swift */,
+				AEF8FC092A555FE600AC87B1 /* CurrencyButton.swift */,
+				AEF8FC032A555EA800AC87B1 /* DropdownButton.swift */,
+				AEF8FC052A555EB300AC87B1 /* DropdownView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AEF8FBFF2A555D6F00AC87B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8FC122A5854CF00AC87B1 /* LatestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEF8FC002A555D7700AC87B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8FC0D2A572DA600AC87B1 /* CurrencyDataViewModel.swift */,
+				AEF8FC162A59881A00AC87B1 /* ConversionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AEF8FC0F2A572DB600AC87B1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8FC102A572DCC00AC87B1 /* Constants.swift */,
+				AEF8FC142A592A3B00AC87B1 /* APIModel.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF8FC062A555EB300AC87B1 /* DropdownView.swift in Sources */,
+				AEF8FC0A2A555FE600AC87B1 /* CurrencyButton.swift in Sources */,
+				AEF8FC172A59881A00AC87B1 /* ConversionViewModel.swift in Sources */,
+				AEF8FC042A555EA800AC87B1 /* DropdownButton.swift in Sources */,
+				AEF8FC152A592A3B00AC87B1 /* APIModel.swift in Sources */,
 				AEF8FBD62A555B6200AC87B1 /* ContentView.swift in Sources */,
+				AEF8FC112A572DCC00AC87B1 /* Constants.swift in Sources */,
 				AEF8FBD42A555B6200AC87B1 /* CurrencyConversionApp.swift in Sources */,
+				AEF8FC0E2A572DA600AC87B1 /* CurrencyDataViewModel.swift in Sources */,
+				AEF8FC132A5854CF00AC87B1 /* LatestModel.swift in Sources */,
+				AEF8FC022A555D9700AC87B1 /* TextFieldView.swift in Sources */,
+				AEF8FC082A555FBC00AC87B1 /* CurrencyButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +501,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -467,7 +539,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;

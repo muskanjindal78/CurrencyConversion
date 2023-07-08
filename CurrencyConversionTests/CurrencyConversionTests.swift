@@ -1,10 +1,3 @@
-//
-//  CurrencyConversionTests.swift
-//  CurrencyConversionTests
-//
-//  Created by head_guest on 05/07/23.
-//
-
 import XCTest
 
 final class CurrencyConversionTests: XCTestCase {
